@@ -1,7 +1,10 @@
-h1{
-    text-align: center;
-}
 
-#container{
-    text-align: center;
+ul{
+    list-style: none;
+}
+.todo-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:60%;
 }
