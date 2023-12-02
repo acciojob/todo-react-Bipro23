@@ -1,13 +1,13 @@
+
 import React from "react";
+import Inputbox from "./InputBox";
 import './../styles/App.css';
-import Todoinput from "./Todo-input";
 
 const App = () => {
   return (
-    <div id="container">
+    <div>
         {/* Do not remove the main div */}
-        <h1>To-do List</h1>
-        <Todoinput/>
+        <Inputbox/>
     </div>
   )
 }
